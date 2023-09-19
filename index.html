@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <!--Phan dau web-->
+    <head>
+		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8"/>
+        <meta name="gaming" name="game thu" content ="Gaming Gear" />
+        <meta http-equiv="refresh" content="1800"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href = "img/icon1.jpg" rel = "shortcut icon"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ciar4n/izmir@1.0.1/izmir.min.css"><!--izmir-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>
+            Demo Website!!
+        </title>
+        <link rel="stylesheet" href="css/style.css"/> <!--style css-->
+        <link rel="stylesheet" href="css/normalize.css"/> <!--reset css-->
+        <link rel="stylesheet" href="css/mobile.css"/> <!--Resposive-->
+        <link rel="stylesheet" href="https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css">
+        <script src="js/wow.min.js"></script><!--Wow.js-->
+              <script>
+                    wow = new WOW(
+                      {
+                      boxClass:     'wow',      // default
+                      animateClass: 'animated', // default
+                      offset:       0,          // default
+                      mobile:       true,       // default
+                      live:         true        // default
+                    }
+                    )
+                    wow.init();
+              </script>
+        <script src='https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js'></script> <!--Wowjs-->
+        <script src="js/jquery-3.6.0.min.js"></script>
+    </head>
+    <!--Phan chu to nhat web ^^-->
+    <body>
+        <script type="text/javascript" src="js/main.js"></script>  
+        <div>
+            <a id = "gototop" href="javascript:;"><img id ="upImg" src ="img/button.png"> </a>
+        </div>
+        <div id="container">
+            <!--phan menu item-->
+            <div id = "menu_mobile">
+                <div id = "nav_bar"></div>
+                <div id = "game_pad">
+                    <a href ="index.html"><i class="fas fa-gamepad"></i></a>
+                </div>
+                <div id = "phone_icon">
+                    <a href="tel:0938656375" ><i class="fas fa-phone"></i></a>
+                </div>
+            </div>
+
+    <nav id ="menu">
+        <ul>    
+            <li><a href ="#Head" id = "head"> Home </a></li>
+            <li>
+                <a class = "insidemenu_product" href ="#product"> Product </a>
+                <ul class="inside-item">
+                        <li><a href="product.html#gaming-pc" href="#gaming-pc">Gaming PC</a></li>
+                        <li><a href="product.html#ultrabook" href="#ultrabook">Ultrabook</a></li>
+                        <li><a href="product.html#console" href="#console">Console</a></li>
+                </ul>
+            </li>
+            <li><a href ="news.html"> News </a></li>
+            <li><a href ="about_us.html"> About Us </a></li>
+            <li><a href = "contact.html"> Contact </a></li>
+			<li><a href = "login.html"><span><i class="fas fa-user"></i><script>document.write(sessionStorage.login);sessionStorage.removeItem('login')</script></span></a></li>
+        </ul>
+    </nav> <!--end menu-->
+    <!--phan content-->
+    <div id="content">
+        <div id="header">
+            <div id="logo">
+			<div id="slideshows">
+				<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+				  <div class="carousel-indicators">
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+				  </div>
+				  <div class="carousel-inner">
+					<div class="carousel-item active">
+					  <img src="img/slide_show1.webp" class="d-block w-100" alt="slide_1">
+					</div>
+					<div class="carousel-item">
+					  <img src="img/slide_show2.jpg" class="d-block w-100" alt="slide_2">
+					</div>
+					<div class="carousel-item">
+					  <img src="img/slide_show3.webp" class="d-block w-100" alt="slide_3">
+					</div>
+					<div class="carousel-item">
+					  <img src="img/silde_show4.jpg" class="d-block w-100" alt="slide_4">
+					</div>
+				  </div>
+				  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				  </button>
+				  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				  </button>
+				</div>
+			</div>
+			</div>
+        </div>
+        <div id="slogan">
+            <p>GAMERS DON'T DIE. THEY RESPAWN!</p>
+        </div>
+        <div class="wow fadeInDown" id ="head-img">
+            <img src="img/shutterstock_gamer.jpg"/>
+        </div>
+        <div id = "slogan">
+            <p>Make It Yours</p>
+        </div>
+        <div class="layout-4x4">
+            <div class="wow fadeInLeft" class="box">
+                <img src="img/macbook on desk.jfif"/>
+            </div>
+            <div class="wow fadeInRight" class="box">
+                <img src="img/5400.jpg"/>
+            </div>
+            <div class="wow fadeInLeft"  class="box">
+                <img src="img/gamingboy.jpg"/>
+            </div>
+            <div class="wow fadeInRight" class="box">
+                <img src="img/uvdpV2LADny3kqq6enEdSC.jpg"/>
+            </div>
+        </div>
+        <div id = "slogan">
+            <p>All You Need Is Here</p>
+        </div>
+        <div class="row" id="intro">
+            <div class="wow fadeInLeft" id="box1" class="col">
+                <h2 class="first3word"><a href = "product.html#gaming-pc" href="#gaming-pc">Gaming PC </a></h2>
+                <figure class="c4-izmir c4-border-vert c4-gradient-top-right c4-image-zoom-in" style="--primary-color: #33ccff; --secondary-color: #ffccff;">
+                    <img id="img-3" src="img/nzxt.png" style="background-color:white">
+                    <figcaption>
+                        <div class="c4-izmir-title-wrapper c4-reveal-up">
+                            <h2 class="c4-izmir-title">
+                                High Efficent
+                            </h2>
+                        </div>
+                        <div class="c4-izmir-caption-wrapper c4-reveal-down">
+                            <a href="product.html#gaming-pc" class="c4-izmir-caption"> Learn More </a>
+                        </div>
+                  </figure>
+            </div>
+            <div class="wow fadeInUp" id="box2" class="col">
+                <h2 class="first3word"><a href = "product.html#ultrabook" href="#ultrabook">Ultrabook </a></h2>
+                <figure class="c4-izmir c4-border-vert c4-gradient-top-right c4-image-zoom-in" style="--primary-color: #dcf8ef; --secondary-color: #fee2f8;">
+                    <img id="img-3" src="img/macbook.jpg" style="background-color:white">
+                    <figcaption>
+                        <div class="c4-izmir-title-wrapper c4-reveal-up">
+                            <h2 class="c4-izmir-title">
+                                More Light
+                            </h2>
+                        </div>
+                        <div class="c4-izmir-caption-wrapper c4-reveal-down">
+                            <a href="product.html#ultrabook" class="c4-izmir-caption"> Learn More </a>
+                        </div>
+                  </figure>
+            </div>
+            <div class="wow fadeInRight" id="box3" class="col">
+                <h2 class="first3word"><a href = "product.html#console" href="#console">Console</a></h2>
+                <figure class="c4-izmir c4-border-vert c4-gradient-top-right c4-image-zoom-in" style="--primary-color: #cc99ff; --secondary-color: #99ffcc  ;">
+                    <img id="img-3" src="img/ps4.jpg" style="background-color:white">
+                    <figcaption>
+                        <div class="c4-izmir-title-wrapper c4-reveal-up">
+                            <h2 class="c4-izmir-title">
+                                High Performance
+                            </h2>
+                        </div>
+                        <div class="c4-izmir-caption-wrapper c4-reveal-down">
+                            <a href="product.html#console" class="c4-izmir-caption"> Learn More </a>
+                        </div>
+                  </figure>
+            </div>
+        </div>
+    </div>
+<!--Phan cuoi web-->
+<div id="footer">
+    <ul>
+        <li class="wow fadeInLeft" class="box-1">
+            <h2 id="contact">Our Location</h2>
+            <p><i id="icon" class="fa fa-location-arrow"></i> : 140 Le Trong Tan, Ward Tay Thanh, Tan Phu District</p>
+            <iframe id="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.0678712674826!2d106.62645491744384!3d10.806113799999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752be27d8b4f4d%3A0x92dcba2950430867!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBDw7RuZyBuZ2hp4buHcCBUaOG7sWMgcGjhuqltIFRQLkhDTQ!5e0!3m2!1svi!2s!4v1655087349538!5m2!1svi!2s" width="100%" height="100%" style="border-radius:15px" allowfullscreen="" loading="lazy"></iframe>
+        </li>
+        <li class="wow fadeInUp" class="box-2">
+            <h2 id="about-us">About US</h2>
+            <p style="text-align: justify;">As a world leading gaming brand, Gaming Ace is the most trusted name in gaming and eSports. We’ve dedicated countless hours and numerous resources to the eSports community to support the world’s most aspiring gamers and leverage their gaming expertise to optimize our product design. MSI has integrated all gamers’ coveted functions into its gaming rigs, eliminating the tedious trial and error by themselves and pushing the performance beyond limits. The determination to surpass past achievements has made MSI a ‘True Gaming’ brand throughout the industry!</p>
+        </li>
+        <li class="wow fadeInRight" class="box-3">
+            <h2 id="contact">Contact US</h2>
+            <p>
+                <span><i id ="icon" class="fas fa-phone-alt"></i></span>
+                <span> : +84 938 656 375 </span>
+            </p>
+            <p>
+                <span><i id="icon" class="fa fa-envelope"></i></span>
+                <a href="mailto:lephuctho69@gmail.com"> : lephuctho69@gmail.com</a>
+            </p>
+            <h2>
+                Find us on
+            </h2>
+            <h3>
+                <span><i id = "icon" class="fab fa-facebook-square"></i></span>
+                <span>  Facebook </span>
+            </h3>
+            <h3>
+                <span><i id="icon" class="fab fa-instagram"></i></span>
+                <span>  Instagram </span>
+            </h3>
+            <h3>
+                <span><i id="icon "class="fab fa-twitter"></i></span>
+                <span> Twitter </span>
+            </h3>
+        </li>
+    </ul>
+</div>
+<!--Underfooter-->
+<div class="copyright" class="wow fadeInUp">   
+    <p>Copyright &copy; 2022 Le Phuc Tho</p>
+</div>
+<div class="wow fadeInUp" id = "underfooter">
+    <div> <img id="brand-icon" src="img/msiicon.png"/> </div>
+    <div> <img id="brand-icon" src="img/asusicon.png"/> </div>
+    <div> <img id="brand-icon" src="img/alw.png "/> </div>
+    <div> <img id="brand-icon" src="img/nzxt logo.jpg"/> </div>
+    <div> <img id="brand-icon" src="img/Apple-Logo-1.png"/> </div>
+    <div> <img id="brand-icon" src="img/Microsoft-Logo-dumps-questions.jpg"/> </div>
+    <div> <img id="brand-icon" src="img/download.png"/> </div>
+    <div> <img id="brand-icon" src="img/nitendo.png"/> </div>
+    <div> <img id="brand-icon" src="img/xboxlogo.jpg"/> </div>
+    <div> <img id="brand-icon" src="img/Sony-logo.jpg"/> </div>
+</div>
+</div>
+</body>
+</html>
